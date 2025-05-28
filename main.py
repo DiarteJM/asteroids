@@ -44,7 +44,7 @@ def main():
                 if collides_with_asteroid == True:
                     print("Bullet hit an asteroid!")
                     bullet.kill()
-                    asteroid.kill()
+                    asteroid.split()
             
         for drawing in drawable:
             drawing.draw(screen)
